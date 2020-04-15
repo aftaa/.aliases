@@ -21,6 +21,7 @@ alias ebash="mcedit ~/.aliases"
 alias libash="li ~/.aliases"
 
 # system
+alias chm="sudo chmod -R $1 $2"
 alias cwn="sudo chown -R max:max $1"
 alias h="sudo mcedit /etc/hosts"
 alias hl="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text /etc/hosts"

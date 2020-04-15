@@ -1,3 +1,5 @@
+cd ~
+
 git init
 
 git remote add origin git@github.com:aftaa/.aliases.git

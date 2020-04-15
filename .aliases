@@ -4,13 +4,19 @@ alias rebash="echo \".. Updating aliases ..\"; source ~/.bashrc"
 alias alipush="\
     echo \".. Pushing aliases ..\" ;\
     ~ ;\
-    add ~/.aliases ;\
+    add ;\
     git commit -m `date +"%Y-%m-%d_%H:%M:%S"` ;\
     push ;\
     rebash ;\
     cd -"
 
-alias alipull="echo \".. Pulling aliases ..\"; ~; pull; rebash; cd -"
+alias alipull="\
+    echo \".. Pulling aliases ..\" ;\
+    ~ \;
+    pull ;\
+    rebash ;\
+    cd -"
+
 alias ebash="mcedit ~/.aliases"
 alias libash="li ~/.aliases"
 

@@ -1,0 +1,117 @@
+# bash
+alias rebash="echo \".. Updating aliases ..\"; source ~/.bashrc"
+
+alias alipush="\
+    echo \".. Pushing aliases ..\" ;\
+    ~ ;\
+    add ~/.aliases ;\
+    git commit -m `date +"%Y-%m-%d_%H:%M:%S"` ;\
+    push ;\
+    rebash ;\
+    cd -"
+
+alias alipull="echo \".. Pulling aliases ..\"; ~; pull; rebash; cd -"
+alias ebash="mcedit ~/.aliases"
+alias libash="li ~/.aliases"
+
+# system
+alias cwn="sudo chown -R max:max $1"
+alias h="sudo mcedit /etc/hosts"
+alias hl="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text /etc/hosts"
+alias lh="hl"
+alias lsa="ls -la"
+alias a2r="sudo service apache2 restart"
+alias uu="sudo apt upgrade && sudo apt update"
+alias svnstat="svn diff --summarize"
+alias svnup="svn update"
+alias flushdns="sudo systemd-resolve --flush-caches"
+alias re="sudo systemctl $1 restart"
+alias rf="sudo rm -rf ./$1"
+
+# Sublime Text
+alias lime="/snap/sublime-text/85/opt/sublime_text/sublime_text $1"
+alias slime="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text $1"
+alias li="lime $1"
+alias sli="slime $1"
+
+# nautilius
+alias n="nautilus . &exit"
+
+# symfony
+alias symf="sudo php bin/console $1 $2 $3 $4 $5"
+
+# killelemtemp :)
+alias ket="echo \".. Hard cache clear elementary/back/var/cache ..\";sudo rm -rf /var/www/elementary/back/var/cache/*"
+
+# jokes
+alias ..="cd .."
+alias ~="cd ~"
+alias gde="pwd"
+alias cls="clear"
+
+# git
+alias add="git add ."
+alias gs="git status"
+alias s="gs"
+alias gb="git branch"
+alias check="git checkout $1"
+alias out="git checkout $1"
+alias push="git push"
+alias pull="git pull"
+alias giff="git diff $1"
+alias glog="git log -n ${1:-3} --reverse"
+alias glon="git log --oneline -n ${1:-10} --reverse"
+alias mas="git checkout master"
+alias commit="git commit -m $1"
+alias co="git commit -m $1"
+alias clone="git clone $1 $2"
+alias ret="git checkout -- $1"
+alias merge="git merge $1"
+
+# www
+alias www="cd /var/www"
+alias statall="sudo service --status-all"
+alias inet="ifconfig | grep 'inet '"
+
+# ABC
+alias abkvpn="echo 'Ur34BbvAc&'; sudo openvpn --config /etc/openvpn/client/client.conf"
+
+# portal
+alias portal="cd /var/www/portal"
+alias portal-switch-4tm="cp /var/www/portal/app/config/parameters_prod_only_4tm.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
+alias portal-switch-rsb="cp /var/www/portal/app/config/parameters_prod_only_rsb.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
+alias portal-switch-2c="cp /var/www/portal/app/config/parameters_prod_only_2c.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
+
+# gamification & codeception
+alias g="cd /var/www/gamification/back"
+alias ccnew="codecept g:test unit {$1}Test"
+alias ccapi="codecept generate:cest api $1"
+alias ccrun="cls; codecept run"
+
+# elementary
+alias e="cd /var/www/elementary"
+alias b="cd /var/www/elementary/back"
+alias ca="cd /var/www/ca"
+
+# kuba
+alias idxall="sudo indexer --all --rotate --config /etc/sphinxsearch/sphinx.conf"
+alias tel1="/snap/telegram-desktop/994/bin/Telegram -many -workdir ~/.telegram1"
+alias fornexroot="echo '9vtRkJkKqllLOUJt'; ssh root1@5.187.5.182"
+alias fornex="ssh after@5.187.5.182"
+
+# telegram
+alias tel903="sudo /snap/telegram-desktop/current/bin/telegram-desktop -many -workdir ~/.tel903"
+alias tel985="sudo /snap/telegram-desktop/current/bin/telegram-desktop -many -workdir ~/.tel985"
+
+# kuba
+alias vg="cd /var/www/vg.aftaa.ru.local"
+
+# android studio
+alias astudio="/home/max/Desktop/android-studio/bin/studio.sh &exit"
+
+# home
+alias ~doc="cd ~/Documents"
+alias ~pic="cd ~/Pictures"
+alias ~dwn="cd ~/Downloads"
+alias ~pub="cd ~/Public"
+alias ~tmp="cd ~/temp"

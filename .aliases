@@ -37,6 +37,10 @@ alias sta="sudo systemctl $1 start"
 alias sto="sudo systemctl $1 stop"
 alias rf="sudo rm -rf ./$1"
 
+# UFW
+alias u="sudo ufw status"
+alias ua="sudo ufw allow $1"
+
 # Midnight Commander
 alias e="mcedit $1"
 

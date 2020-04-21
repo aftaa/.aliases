@@ -18,6 +18,7 @@ alias alipull="\
     cd -"
 
 alias ebash="mcedit ~/.aliases"
+alias a="ebash"
 alias libash="li ~/.aliases"
 
 # system

@@ -61,7 +61,6 @@ alias symf="sudo php bin/console $1 $2 $3 $4 $5"
 alias ket="echo \".. Hard cache clear elementary/back/var/cache ..\";sudo rm -rf /var/www/elementary/back/var/cache/*"
 
 # jokes
-alias /="cd /"
 alias ..="cd .."
 alias ~="cd ~"
 alias gde="pwd"

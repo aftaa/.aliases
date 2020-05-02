@@ -19,7 +19,7 @@ alias alipull="\
 
 alias ebash="mcedit ~/.aliases"
 alias a="ebash"
-alias libash="li ~/.aliases"
+alias ali="li ~/.aliases"
 
 # system
 alias chm="sudo chmod -R $1 $2"
@@ -89,6 +89,9 @@ alias merge="git merge $1"
 alias www="cd /var/www"
 alias all="sudo service --status-all"
 alias inet="ifconfig | grep 'inet '"
+
+# creative
+alias cre="cd /var/www/creative"
 
 # ABC
 alias abkvpn="echo 'Ur34BbvAc&'; sudo openvpn --config /etc/openvpn/client/client.conf"

@@ -39,7 +39,8 @@ alias sto="sudo systemctl $1 stop"
 alias rf="sudo rm -rf ./$1"
 
 # avral.online
-alias av="ssh -l root -p 1235 proxy-office.slms.ru"
+alias avroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"
+alias avral="ssh -p 1235 proxy-office.slms.ru"
 
 # UFW
 alias u="sudo ufw status"

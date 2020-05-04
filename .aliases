@@ -1,7 +1,7 @@
 # bash
 alias rebash="echo \".. Updating aliases ..\"; source ~/.bashrc"
 
-alias alipush="\
+alias apush="\
     echo \".. Pushing aliases ..\" ;\
     ~ ;\
     add ;\
@@ -10,7 +10,7 @@ alias alipush="\
     rebash ;\
     cd -"
 
-alias alipull="\
+alias apull="\
     echo \".. Pulling aliases ..\" ;\
     ~ \;
     pull ;\
@@ -38,7 +38,8 @@ alias sta="sudo systemctl $1 start"
 alias sto="sudo systemctl $1 stop"
 alias rf="sudo rm -rf ./$1"
 alias prg="sudo apt-get --purge --auto-remove remove $1"
-alias e="exit"
+alias rip="sudo add-apt-repository --remove ppa:$1/ppa"
+# alias echo="exit"
 alias ins="sudo apt install $1 $2 $3"
 alias i="sudo apt install $1"
 
@@ -51,7 +52,7 @@ alias u="sudo ufw status"
 alias ua="sudo ufw allow $1"
 
 # Midnight Commander
-alias ed="mcedit $1"
+alias e="mcedit $1"
 
 # Sublime Text
 alias lime="/snap/sublime-text/85/opt/sublime_text/sublime_text $1"
@@ -101,7 +102,7 @@ alias allgrep="sudo service --status-all | grep $1"
 alias inet="ifconfig | grep 'inet '"
 
 # creative
-alias cre="cd /var/www/creative"
+# alias cre="cd /var/www/creative"
 
 # ABC
 alias abkvpn="echo 'Ur34BbvAc&'; sudo openvpn --config /etc/openvpn/client/client.conf"

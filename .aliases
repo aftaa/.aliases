@@ -37,7 +37,7 @@ alias re="sudo systemctl $1 restart"
 alias sta="sudo systemctl $1 start"
 alias sto="sudo systemctl $1 stop"
 alias rf="sudo rm -rf ./$1"
-alias purge="sudo apt-get --purge --auto-remove remove $1"
+alias prg="sudo apt-get --purge --auto-remove remove $1"
 alias e="exit"
 
 # avral.online

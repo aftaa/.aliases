@@ -70,6 +70,7 @@ alias ..="cd .."
 alias ~="cd ~"
 alias gde="pwd"
 alias cls="clear"
+alias susu="sudo su"
 
 # git
 alias add="git add ."

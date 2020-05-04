@@ -39,6 +39,8 @@ alias sto="sudo systemctl $1 stop"
 alias rf="sudo rm -rf ./$1"
 alias prg="sudo apt-get --purge --auto-remove remove $1"
 alias e="exit"
+alias ins="sudo apt install $1 $2 $3"
+alias i="sudo apt install $1"
 
 # avral.online
 alias avroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"

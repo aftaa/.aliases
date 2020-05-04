@@ -93,6 +93,7 @@ alias merge="git merge $1"
 # www
 alias www="cd /var/www"
 alias all="sudo service --status-all"
+alias allgrep="sudo service --status-all | grep $1"
 alias inet="ifconfig | grep 'inet '"
 
 # creative

@@ -38,10 +38,11 @@ alias sta="sudo systemctl $1 start"
 alias sto="sudo systemctl $1 stop"
 alias rf="sudo rm -rf ./$1"
 alias prg="sudo apt-get --purge --auto-remove remove $1"
-alias rip="sudo apt-repository --remove ppa:$1/ppa"
+alias rip="sudo add-apt-repository --remove ppa:http://nginx.org/packages/ubuntu/ppa"
 # alias echo="exit"
 alias ins="sudo apt install $1 $2 $3"
 alias i="sudo apt install $1"
+alias lo="logout"
 
 # avral.online
 alias avroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"

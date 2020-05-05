@@ -38,7 +38,11 @@ alias sta="sudo systemctl $1 start"
 alias sto="sudo systemctl $1 stop"
 alias rf="sudo rm -rf ./$1"
 alias prg="sudo apt-get --purge --auto-remove remove $1"
+<<<<<<< HEAD
 alias rip="sudo add-apt-repository --remove ppa:http://nginx.org/packages/ubuntu/ppa"
+=======
+alias rip="sudo add-apt-repository --remove ppa:$1/ppa"
+>>>>>>> e6c41df6c57cc81b1867f931ff6d7546dd83cfcf
 # alias echo="exit"
 alias ins="sudo apt install $1 $2 $3"
 alias i="sudo apt install $1"

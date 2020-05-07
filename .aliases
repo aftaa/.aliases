@@ -45,9 +45,9 @@ alias i="sudo apt install $1"
 alias lo="logout"
 alias ex="exit"
 
-# avral.online
-alias avroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"
-alias avral="ssh -p 1235 proxy-office.slms.ru"
+# arval.online
+alias aroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"
+alias arval="ssh -p 1235 proxy-office.slms.ru"
 
 # UFW
 alias u="sudo ufw status"

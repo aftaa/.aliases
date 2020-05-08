@@ -62,6 +62,9 @@ alias slime="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text $1"
 alias li="lime $1"
 alias sli="slime $1"
 
+# arval
+alias koh="cd /var/www/arval/data/www/arval.online"
+
 # nautilius
 alias n="nautilus . &exit"
 

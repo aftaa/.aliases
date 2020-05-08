@@ -1,8 +1,8 @@
 # bash
-alias rebash="echo \".. Updating aliases ..\"; source ~/.bashrc"
+alias rebash="echo \".. Updating bash aliases ..\"; source ~/.bashrc"
 
 alias apush="\
-    echo \".. Pushing aliases ..\" ;\
+    echo \".. Pushing bash aliases ..\" ;\
     ~ ;\
     add ;\
     commit `date +"%Y-%m-%d_%H:%M:%S"` ;\
@@ -17,9 +17,9 @@ alias apull="\
     rebash ;\
     cd -"
 
-alias ebash="mcedit ~/.aliases"
+alias ebash="mcedit ~/.bash_aliases"
 alias a="ebash"
-alias ali="li ~/.aliases"
+alias ali="li ~/.bash_aliases"
 
 # system
 alias chm="sudo chmod -R $1 $2"

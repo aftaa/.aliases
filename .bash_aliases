@@ -77,6 +77,7 @@ alias ~="cd ~"
 alias gde="pwd"
 alias cls="clear"
 alias susu="sudo su"
+alias soul="sudo $1 $2 $3 $3 $5 $6 $7"
 
 # git
 alias add="git add ."

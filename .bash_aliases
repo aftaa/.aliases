@@ -46,7 +46,8 @@ alias ex="exit"
 
 # arval.online
 alias aroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"
-alias arval="ssh -p 1235 proxy-office.slms.ru"
+alias arval="ssh -p 1235 max@arval-dev.slms.ru"
+alias a="arval"
 
 # UFW
 alias u="sudo ufw status"
@@ -119,10 +120,10 @@ alias portal-switch-rsb="cp /var/www/portal/app/config/parameters_prod_only_rsb.
 alias portal-switch-2c="cp /var/www/portal/app/config/parameters_prod_only_2c.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
 
 # gamification & codeception
-alias g="cd /var/www/gamification/back"
-alias ccnew="codecept g:test unit {$1}Test"
-alias ccapi="codecept generate:cest api $1"
-alias ccrun="cls; codecept run"
+#alias g="cd /var/www/gamification/back"
+#alias ccnew="codecept g:test unit {$1}Test"
+#alias ccapi="codecept generate:cest api $1"
+#alias ccrun="cls; codecept run"
 
 # elementary
 #alias e="cd /var/www/elementary"

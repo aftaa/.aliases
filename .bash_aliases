@@ -18,7 +18,6 @@ alias apull="\
     cd -"
 
 alias ebash="mcedit ~/.bash_aliases"
-alias a="ebash"
 alias ali="li ~/.bash_aliases"
 
 # system

@@ -63,7 +63,7 @@ alias li="lime $1"
 alias sli="slime $1"
 
 # arval
-alias koh="cd /var/www/arval/data/www/arval.online"
+alias koh="cd /var/www/arval/data/www/arval.local"
 
 # nautilius
 alias n="nautilus . &exit"

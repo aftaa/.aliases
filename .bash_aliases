@@ -43,6 +43,7 @@ alias ins="sudo apt install $1 $2 $3"
 alias i="sudo apt install $1"
 alias lo="logout"
 alias ex="exit"
+alias autorm="sudo apt autoremove"
 
 # arval.online
 alias aroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"

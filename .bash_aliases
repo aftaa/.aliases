@@ -44,7 +44,7 @@ alias i="sudo apt install $1"
 alias r="sudo apt remove $1"
 alias lo="logout"
 alias ex="exit"
-alias am="sudo apt autoremove"
+alias ar="sudo apt autoremove"
 alias ac="sudo apt autoclean"
 
 # arval.online

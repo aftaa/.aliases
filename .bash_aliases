@@ -44,8 +44,8 @@ alias i="sudo apt install $1"
 alias r="sudo apt remove $1"
 alias lo="logout"
 alias ex="exit"
-alias autorm="sudo apt autoremove"
-alias autocln="sudo apt autoclean"
+alias am="sudo apt autoremove"
+alias ac="sudo apt autoclean"
 
 # arval.online
 alias aroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"

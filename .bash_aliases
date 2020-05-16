@@ -41,9 +41,11 @@ alias rip="sudo add-apt-repository --remove ppa:$1/ppa"
 # alias echo="exit"
 alias ins="sudo apt install $1 $2 $3"
 alias i="sudo apt install $1"
+alias r="sudo apt remove $1"
 alias lo="logout"
 alias ex="exit"
 alias autorm="sudo apt autoremove"
+alias autocln="sudo apt autoclean"
 
 # arval.online
 alias aroot="echo 'Qwerty12#$%'; ssh -l root -p 1235 proxy-office.slms.ru"
@@ -112,13 +114,13 @@ alias inet="ifconfig | grep 'inet '"
 # alias cre="cd /var/www/creative"
 
 # ABC
-alias abkvpn="echo 'Ur34BbvAc&'; sudo openvpn --config /etc/openvpn/client/client.conf"
+#alias abkvpn="echo 'Ur34BbvAc&'; sudo openvpn --config /etc/openvpn/client/client.conf"
 
 # portal
-alias portal="cd /var/www/portal"
-alias portal-switch-4tm="cp /var/www/portal/app/config/parameters_prod_only_4tm.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
-alias portal-switch-rsb="cp /var/www/portal/app/config/parameters_prod_only_rsb.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
-alias portal-switch-2c="cp /var/www/portal/app/config/parameters_prod_only_2c.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
+#alias portal="cd /var/www/portal"
+#alias portal-switch-4tm="cp /var/www/portal/app/config/parameters_prod_only_4tm.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
+#alias portal-switch-rsb="cp /var/www/portal/app/config/parameters_prod_only_rsb.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
+#alias portal-switch-2c="cp /var/www/portal/app/config/parameters_prod_only_2c.yml.dist /var/www/portal/app/config/parameters_prod_only.yml"
 
 # gamification & codeception
 #alias g="cd /var/www/gamification/back"

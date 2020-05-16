@@ -103,6 +103,7 @@ alias co="git commit -m $1"
 alias clone="git clone $1 $2"
 alias ret="git checkout -- $1"
 alias merge="git merge $1"
+alias cb="git checkout -b $1"
 
 # www
 alias www="cd /var/www"

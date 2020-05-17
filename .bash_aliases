@@ -18,6 +18,7 @@ alias apull="\
     cd -"
 
 alias ebash="mcedit ~/.bash_aliases"
+alias gbash="gedit ~/.bash_aliases"
 alias ali="li ~/.bash_aliases"
 
 # system
@@ -59,9 +60,11 @@ alias ua="sudo ufw allow $1"
 # Midnight Commander
 alias e="mcedit $1"
 
-# Sublime Text
-alias lime="/snap/sublime-text/85/opt/sublime_text/sublime_text $1"
-alias slime="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text $1"
+# Sublime Text -> gedit (temporarily)
+#alias lime="/snap/sublime-text/85/opt/sublime_text/sublime_text $1"
+#alias slime="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text $1"
+alias li="gedit $1"
+alias sli="sudo gedit $1"
 alias li="lime $1"
 alias sli="slime $1"
 

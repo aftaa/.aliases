@@ -69,7 +69,7 @@ alias li="lime $1"
 alias sli="slime $1"
 
 # arval
-alias koh="cd /var/www/arval.online"
+alias koh="cd /var/www/arval.online.local"
 
 # nautilius
 alias n="nautilus . &exit"
@@ -99,7 +99,7 @@ alias out="git checkout $1"
 alias push="git push"
 alias pull="git pull"
 alias giff="git diff $1"
-alias logfull="git log -n ${1:-3} --reverse"
+alias lf="git log -n ${1:-3} --reverse"
 alias oneline="git log --oneline -n ${1:-10} --reverse"
 alias mas="git checkout master"
 alias commit="git commit -m $1"

@@ -61,12 +61,10 @@ alias ua="sudo ufw allow $1"
 alias e="mcedit $1"
 
 # Sublime Text -> gedit (temporarily)
-#alias lime="/snap/sublime-text/85/opt/sublime_text/sublime_text $1"
-#alias slime="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text $1"
-alias li="gedit $1"
-alias sli="sudo gedit $1"
+alias lime="/snap/sublime-text/85/opt/sublime_text/sublime_text $1"
+alias slime="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text $1"
 alias li="lime $1"
-alias sli="slime $1"
+alias sli="sudo lime $1"
 
 # arval
 alias koh="cd /var/www/arval.online.local"

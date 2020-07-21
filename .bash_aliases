@@ -90,7 +90,7 @@ alias soul="sudo $1 $2 $3 $3 $5 $6 $7"
 # git
 alias add="git add ."
 alias gs="git status"
-alias s="gs"
+alias s="gs; gb"
 alias gb="git branch"
 alias b="gb"
 alias bdel="git branch -D $1"

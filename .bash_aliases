@@ -165,3 +165,6 @@ alias ~pub="cd ~/Public"
 alias ~tmp="cd ~/temp"
 alias ~ssh="cd ~/.ssh"
 alias ~dsk="cd ~/Desktop"
+
+# pik-soft
+alias exdev="echo '5ukVhLmdFQ'; ssh -l express 185.15.175.43"

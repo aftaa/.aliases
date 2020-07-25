@@ -167,4 +167,7 @@ alias ~ssh="cd ~/.ssh"
 alias ~dsk="cd ~/Desktop"
 
 # pik-soft
-alias exdev="echo '5ukVhLmdFQ'; ssh -l express 185.15.175.43"
+#alias exdev="echo '5ukVhLmdFQ'; ssh -l express 185.15.175.43"
+
+# docker
+alias dps="docker ps"

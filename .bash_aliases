@@ -172,3 +172,5 @@ alias ~dsk="cd ~/Desktop"
 
 # docker
 alias d="docker $1 $2 $3 $4 $5 $6 $7 $8 $9"
+alias drm="docker rm $(docker ps -a -f status=exited -q)"
+alias drmi="docker rmi $(docker images -a -q)"

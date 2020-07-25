@@ -111,6 +111,7 @@ alias clone="git clone $1 $2"
 alias ret="git checkout -- $1"
 alias merge="git merge $1"
 alias cb="git checkout -b $1"
+alias g="git $1 $2 $3 $4 $5"
 
 # www
 alias www="cd /var/www"
@@ -170,6 +171,4 @@ alias ~dsk="cd ~/Desktop"
 #alias exdev="echo '5ukVhLmdFQ'; ssh -l express 185.15.175.43"
 
 # docker
-alias dps="docker ps"
-alias dst="docker stop $1"
 alias d="docker $1 $2 $3 $4 $5 $6 $7 $8 $9"

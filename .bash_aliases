@@ -74,7 +74,7 @@ alias koh="cd /var/www/arval.online.local"
 alias n="nautilus . &exit"
 
 # symfony
-alias sy="sudo php bin/console $1 $2 $3 $4 $5"
+alias sc="sudo php bin/console $1 $2 $3 $4 $5"
 
 # killelemtemp :)
 alias ket="echo \".. Hard cache clear elementary/back/var/cache ..\";sudo rm -rf /var/www/elementary/back/var/cache/*"

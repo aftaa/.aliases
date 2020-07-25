@@ -171,3 +171,4 @@ alias ~dsk="cd ~/Desktop"
 
 # docker
 alias dps="docker ps"
+alias dst="docker stop $1"

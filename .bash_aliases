@@ -12,7 +12,7 @@ alias apush="\
 
 alias apull="\
     echo \".. Pulling aliases ..\" ;\
-    ~ \;
+    ~ ;\
     pull ;\
     rebash ;\
     cd -"

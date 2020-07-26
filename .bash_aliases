@@ -71,7 +71,7 @@ alias sli="sudo /snap/sublime-text/85/opt/sublime_text/sublime_text $1"
 alias koh="cd /var/www/arval.online.local"
 
 # nautilius
-alias n="nautilus . &exit"
+alias n="nautilus"
 
 # symfony
 alias sc="sudo php bin/console $1 $2 $3 $4 $5"

@@ -176,3 +176,6 @@ alias d="docker $1 $2 $3 $4 $5 $6 $7 $8 $9"
 #alias drmi="sudo docker rmi $(docker images -a -q)"
 # docker-compose
 alias dc="docker-compose $1 $2 $3 $4 $5 $6 $7 $8 $9"
+
+# ices, icecast2
+alias reices="ices -c /usr/local/etc/ices.conf"

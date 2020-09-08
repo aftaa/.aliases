@@ -171,7 +171,7 @@ alias ~dsk="cd ~/Desktop"
 #alias exdev="echo '5ukVhLmdFQ'; ssh -l express 185.15.175.43"
 
 # docker
-alias d="docker $1 $2 $3 $4 $5 $6 $7 $8 $9"
+alias d="sudo docker $1 $2 $3 $4 $5 $6 $7 $8 $9"
 #alias drm="sudo docker rm $(docker ps -a -f status=exited -q)"
 #alias drmi="sudo docker rmi $(docker images -a -q)"
 # docker-compose

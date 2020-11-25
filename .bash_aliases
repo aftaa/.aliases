@@ -17,6 +17,9 @@ alias apull="\
     rebash ;\
     cd -"
 
+alias alias-push="apush"
+alias alias-pull="apull"
+
 alias ebash="mcedit ~/.bash_aliases"
 alias gbash="gedit ~/.bash_aliases"
 alias ali="li ~/.bash_aliases"

@@ -112,6 +112,7 @@ alias ret="git checkout -- $1"
 alias merge="git merge $1"
 alias cb="git checkout -b $1"
 alias g="git $1 $2 $3 $4 $5"
+alias cln="git clone $1"
 
 # www
 alias www="cd /var/www"

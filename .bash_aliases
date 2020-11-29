@@ -17,6 +17,9 @@ alias apull="\
     rebash ;\
     cd -"
 
+alias alias-push="apush"
+alias alias-pull="apull"
+
 alias ebash="mcedit ~/.bash_aliases"
 alias gbash="gedit ~/.bash_aliases"
 alias ali="li ~/.bash_aliases"
@@ -106,7 +109,7 @@ alias mas="git checkout master; gb"
 alias dev="git checkout dev; gb"
 alias commit="git commit -m $1"
 alias pcommit="git commit -m $1; push"
-alias co="git commit -m $1"
+alias co="git add . ; git commit -m $1; git push;git status"
 alias clone="git clone $1 $2"
 alias ret="git checkout -- $1"
 alias merge="git merge $1"
@@ -180,3 +183,7 @@ alias dc="docker-compose $1 $2 $3 $4 $5 $6 $7 $8 $9"
 
 # ices, icecast2
 alias reices="ices -c /usr/local/etc/ices.conf"
+
+# PHP
+alias php8="sudo update-alternatives --set php /usr/bin/php8.0"
+alias php7="sudo update-alternatives --set php /usr/bin/php7.4"

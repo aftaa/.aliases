@@ -62,7 +62,7 @@ alias u="sudo ufw status"
 alias ua="sudo ufw allow $1"
 
 # Midnight Commander
-alias e="mcedit $1"
+alias e="sudo mcedit $1"
 
 # Sublime Text -> gedit (temporarily)
 alias lime="/snap/sublime-text/85/opt/sublime_text/sublime_text $1"
@@ -186,5 +186,5 @@ alias dc="docker-compose $1 $2 $3 $4 $5 $6 $7 $8 $9"
 alias reices="ices -c /usr/local/etc/ices.conf"
 
 # PHP
-alias php8="sudo update-alternatives --set php /usr/bin/php8.0"
+alias php8="sudo update-alternatives --set php /usr/bin/php8.1"
 alias php7="sudo update-alternatives --set php /usr/bin/php7.4"

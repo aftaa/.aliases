@@ -152,6 +152,7 @@ alias tel1="/snap/telegram-desktop/994/bin/Telegram -many -workdir ~/.telegram1"
 #alias fornexroot="echo '9vtRkJkKqllLOUJt'; ssh root1@5.187.5.182"
 #alias fornex="ssh after@5.187.5.182"
 alias fornex="echo 'AbvQGtzOAd2x4mER'; ssh root@5.187.4.211"
+alias mchs="echo 'Ub6(BT6jhK@'; sudo openvpn --config ~/Documents/client.conf"
 
 # telegram
 alias tel903="sudo /snap/telegram-desktop/current/bin/telegram-desktop -many -workdir ~/.tel903"
